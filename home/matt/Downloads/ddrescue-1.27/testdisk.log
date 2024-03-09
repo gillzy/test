@@ -1,0 +1,362 @@
+
+
+Mon Jan  8 00:39:09 2024
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.2.0-36-generic (#37~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct  9 15:34:04 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+/dev/sda: LBA, LBA48 support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors (RO), sector size=512
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - CT1000BX500SSD1, S/N:2304E6A2DA78, FW:M6CR056
+Disk /dev/sdb - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - Seagate USB 2.0 Cable, FW:0148
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 10330 KB / 10088 KiB - 20176 sectors (RO), sector size=512
+Disk /dev/loop10 - 366 MB / 349 MiB - 716176 sectors (RO), sector size=512
+Disk /dev/loop11 - 509 MB / 485 MiB - 994336 sectors (RO), sector size=512
+Disk /dev/loop12 - 521 MB / 496 MiB - 1017816 sectors (RO), sector size=512
+Disk /dev/loop13 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop14 - 12 MB / 12 MiB - 25240 sectors (RO), sector size=512
+Disk /dev/loop15 - 42 MB / 40 MiB - 83672 sectors (RO), sector size=512
+Disk /dev/loop16 - 42 MB / 40 MiB - 82800 sectors (RO), sector size=512
+Disk /dev/loop17 - 462 KB / 452 KiB - 904 sectors (RO), sector size=512
+Disk /dev/loop18 - 67 MB / 63 MiB - 130888 sectors (RO), sector size=512
+Disk /dev/loop2 - 10051 KB / 9816 KiB - 19632 sectors (RO), sector size=512
+Disk /dev/loop3 - 110 MB / 105 MiB - 216720 sectors (RO), sector size=512
+Disk /dev/loop5 - 66 MB / 63 MiB - 129976 sectors (RO), sector size=512
+Disk /dev/loop6 - 77 MB / 74 MiB - 151784 sectors (RO), sector size=512
+Disk /dev/loop7 - 77 MB / 73 MiB - 151352 sectors (RO), sector size=512
+Disk /dev/loop8 - 248 MB / 237 MiB - 485800 sectors (RO), sector size=512
+Disk /dev/loop9 - 251 MB / 240 MiB - 492168 sectors (RO), sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/sdb - 500 GB / 465 GiB - Seagate USB 2.0 Cable
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+NTFS at 0/32/33
+NTFS at 12/223/20
+ 1 * HPFS - NTFS              0  32 33    12 223 19     204800 [System Reserved]
+     NTFS, blocksize=4096, 104 MB / 100 MiB
+ 2 P HPFS - NTFS             12 223 20 60801  47 46  976564224
+     NTFS, blocksize=4096, 500 GB / 465 GiB
+
+ntfs_boot_sector
+ 2 P HPFS - NTFS             12 223 20 60801  47 46  976564224
+     NTFS, blocksize=4096, 500 GB / 465 GiB
+NTFS at 12/223/20
+NTFS at 12/223/20
+filesystem size           976564224
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+Boot sector
+Status: OK
+
+Backup boot sector
+Status: OK
+
+Sectors are identical.
+
+A valid NTFS Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=32843 count=1 br=-1: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=92703 count=1 br=-1: Input/output error
+Could not decode the type of inode 92703
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=92703 count=1 br=-1: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=43565 count=1 br=-1: Input/output error
+Corrupt attribute list entry in MFT record 103758
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=35735 count=1 br=-1: Input/output error
+ntfs_device_testdisk_io_ioctl() unimplemented
+NTFS Volume is dirty.
+
+
+dir_partition inode=5
+ 2 P HPFS - NTFS             12 223 20 60801  47 46  976564224
+     NTFS, blocksize=4096, 500 GB / 465 GiB
+file_pread(5,16,buffer,6563990(408/150/21)) read err: Input/output error
+file_pread(5,1,buffer,6563990(408/150/21)) read err: Input/output error
+ntfs_readdir failed for cluster 5: Input/output error
+Directory /
+       5 dr-xr-xr-x     0      0         0 25-Sep-2015 12:25 .
+       5 dr-xr-xr-x     0      0         0 25-Sep-2015 12:25 ..
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 $Recycle.Bin
+     273 dr-xr-xr-x     0      0         0 21-Sep-2015 17:47 Program Files (x86)
+
+dir_partition inode=57
+ 2 P HPFS - NTFS             12 223 20 60801  47 46  976564224
+     NTFS, blocksize=4096, 500 GB / 465 GiB
+file_pread(5,16,buffer,6683710(416/10/41)) read err: Input/output error
+file_pread(5,1,buffer,6683710(416/10/41)) read err: Input/output error
+file_pread(5,1,buffer,6683711(416/10/42)) read err: Input/output error
+ntfs_readdir failed for cluster 57: Input/output error
+Directory /$Recycle.Bin
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 .
+       5 dr-xr-xr-x     0      0         0 25-Sep-2015 12:25 ..
+   89426 dr-xr-xr-x     0      0         0 27-Jul-2015 23:22 S-1-5-18
+   15478 dr-xr-xr-x     0      0         0 27-Sep-2015 18:16 S-1-5-21-1982615213-2701732440-2548999596-1000
+   80677 dr-xr-xr-x     0      0         0 11-Sep-2013 19:04 S-1-5-21-1982615213-2701732440-2548999596-1001
+   85316 dr-xr-xr-x     0      0         0  5-Oct-2013 15:23 S-1-5-21-1982615213-2701732440-2548999596-1002
+   84589 dr-xr-xr-x     0      0         0 23-Aug-2014 11:31 S-1-5-21-1982615213-2701732440-2548999596-1003
+
+dir_partition inode=15478
+ 2 P HPFS - NTFS             12 223 20 60801  47 46  976564224
+     NTFS, blocksize=4096, 500 GB / 465 GiB
+file_pread(5,16,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,1,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,16,buffer,6569774(408/242/9)) read err: Input/output error
+file_pread(5,1,buffer,6569774(408/242/9)) read err: Input/output error
+ntfs_readdir failed for cluster 15478: Input/output error
+Directory /$Recycle.Bin/S-1-5-21-1982615213-2701732440-2548999596-1000
+   15478 dr-xr-xr-x     0      0         0 27-Sep-2015 18:16 .
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 ..
+   65156 dr-xr-xr-x     0      0         0  8-Aug-2015 22:04 $RJSWTGI
+  144471 dr-xr-xr-x     0      0         0 16-Mar-2015 10:52 $RV8NX78
+  165751 dr-xr-xr-x     0      0         0  9-May-2015 14:27 $RW7IIRG
+  155239 dr-xr-xr-x     0      0         0 26-Aug-2015 02:49 $RXL6YCS
+   60210 -r--r--r--     0      0       544 28-Apr-2013 16:45 $I0F8U5X.jpg
+  136670 -r--r--r--     0      0       544 19-Dec-2014 20:16 $I0H5L45.mkv
+   62703 -r--r--r--     0      0       544  1-May-2013 12:13 $I0Q6O9Z.jpg
+   62695 -r--r--r--     0      0       544  1-May-2013 12:13 $I45R5WF.jpg
+  166414 -r--r--r--     0      0       544 10-May-2015 15:02 $I4MP1XS.mp3
+  166504 -r--r--r--     0      0       544 10-May-2015 15:02 $I4U2UCS.mp3
+  166443 -r--r--r--     0      0       544 10-May-2015 15:02 $I4ZXAXQ.mp3
+   58666 -r--r--r--     0      0       544 26-Aug-2015 02:31 $I5169MK.jpg
+  136835 -r--r--r--     0      0       544 16-Mar-2015 10:45 $I5KBD6V.mp4
+  166496 -r--r--r--     0      0       544 10-May-2015 15:02 $I5L7PQF.mp3
+   60232 -r--r--r--     0      0       544 10-May-2015 15:02 $I5VRZXR.mp3
+  123255 -r--r--r--     0      0       544 13-Sep-2015 17:12 $I5XJLQD.jpg
+   26196 -r--r--r--     0      0       544 19-May-2015 00:09 $I63V8YZ.mp4
+  126821 -r--r--r--     0      0       544 13-Sep-2015 17:12 $I6O75ID.jpg
+  166514 -r--r--r--     0      0       544 10-May-2015 15:02 $I7DPHYI.mp3
+   59393 -r--r--r--     0      0       544  1-May-2013 12:13 $I7PGWQB.jpg
+  166478 -r--r--r--     0      0       544 10-May-2015 15:02 $I7TLJDG.mp3
+  154750 -r--r--r--     0      0       544 22-May-2015 20:30 $I83X75I.wav
+  166432 -r--r--r--     0      0       544 10-May-2015 15:02 $I84B2XI.mp3
+  180912 -r--r--r--     0      0       544 27-Sep-2015 18:16 $I954Y2T.mp4
+  109442 -r--r--r--     0      0       544 10-Sep-2015 19:30 $I95CGQ1.jpg
+  181135 -r--r--r--     0      0       544 26-Aug-2015 02:49 $I9KOMW1.mp4
+   59412 -r--r--r--     0      0       544  1-May-2013 12:13 $I9RCC2B.jpg
+   96149 -r--r--r--     0      0       544  8-Apr-2013 14:56 $IB8AJJ5.wmv
+   62041 -r--r--r--     0      0       544 27-Oct-2013 18:05 $IDWDAPT.png
+  134113 -r--r--r--     0      0       544  6-Dec-2013 23:36 $IFMHFX3.png
+  174999 -r--r--r--     0      0       544 15-Sep-2015 18:54 $IFW0F3L.jpg
+  166480 -r--r--r--     0      0       544 10-May-2015 15:02 $IG7FZ4L.mp3
+  117580 -r--r--r--     0      0       544 10-Sep-2015 19:30 $IG8C1UR.jpg
+  128456 -r--r--r--     0      0       544 13-Sep-2015 17:12 $IGB38CB.jpg
+   62688 -r--r--r--     0      0       544  1-May-2013 12:13 $IGBTEDQ.jpg
+  165745 -r--r--r--     0      0       544 10-May-2015 15:02 $IGJ3IZQ.mp3
+  109665 -r--r--r--     0      0       544 10-Sep-2015 19:30 $IGPAA4J.jpg
+  136673 -r--r--r--     0      0       544 19-Dec-2014 20:16 $IGPX8O0.mkv
+  126817 -r--r--r--     0      0       544 13-Sep-2015 17:12 $IGSJFFK.jpg
+   87228 -r--r--r--     0      0       544 23-Oct-2013 12:57 $IGU4CS9.mp3
+  121019 -r--r--r--     0      0       544 27-Oct-2013 18:21 $IJ6FUAG.png
+  140726 -r--r--r--     0      0       544  2-Jan-2014 12:50 $ILRWQMJ.png
+  130312 -r--r--r--     0      0       544 28-Nov-2013 22:04 $IP1O4SW.png
+  181917 -r--r--r--     0      0       544 29-Aug-2015 19:29 $IP9BMI2.mp3
+  166511 -r--r--r--     0      0       544 10-May-2015 15:02 $IPNWRN0.mp3
+  130307 -r--r--r--     0      0       544 28-Nov-2013 22:04 $IQ2KAFS.png
+   26329 -r--r--r--     0      0       544 19-May-2015 00:09 $IQC0E5P.mp4
+  181174 -r--r--r--     0      0       544 26-Aug-2015 02:49 $IQIJVVW.mp4
+   17752 -r--r--r--     0      0       544 27-Sep-2015 00:28 $IQQJTR4.url
+   90770 -r--r--r--     0      0       544 31-Aug-2015 13:34 $IQRX91Q.exe
+  166506 -r--r--r--     0      0       544 10-May-2015 15:02 $IQVTVJK.mp3
+   60274 -r--r--r--     0      0       544 28-Apr-2013 16:45 $IQYTV92.wmv
+  136908 -r--r--r--     0      0       544 19-Dec-2013 19:59 $IRS8UGY.mp3
+   59396 -r--r--r--     0      0       544  1-May-2013 12:13 $IT98NLC.jpg
+  134066 -r--r--r--     0      0       544  6-Dec-2013 23:33 $IVW28Y0.png
+   90278 -r--r--r--     0      0       544 26-Oct-2013 22:53 $IY8IK1H.png
+   25946 -r--r--r--     0      0       544 19-May-2015 00:09 $IZC4U3H.mp4
+  166508 -r--r--r--     0      0       544 10-May-2015 15:02 $IZH90WG.mp3
+  133981 -r--r--r--     0      0       544  6-Dec-2013 20:57 $IZSHKR0.jpg
+  166516 -r--r--r--     0      0       544 10-May-2015 15:02 $IZTH22X.mp3
+  181996 -r--r--r--     0      0       544 26-Aug-2015 02:49 $IZZJLP9.mp4
+  183715 -r--r--r--     0      0    221721  8-Sep-2015 00:09 $R1ANDOI.jpg
+  183315 -r--r--r--     0      0       961  8-Jul-2015 22:33 $R2JPYEQ.lnk
+  147899 -r--r--r--     0      0 153990099 12-Oct-2014 19:00 $R3BY6AT.mkv
+  179859 -r--r--r--     0      0     26384 23-Aug-2015 21:54 $R5169MK.jpg
+  179487 -r--r--r--     0      0    238242 24-Sep-2015 01:33 $RIY00T7.jpg
+  181910 -r--r--r--     0      0    118644 27-Feb-2015 15:33 $RJ4KYV3.jpg
+  179971 -r--r--r--     0      0    719509  7-Sep-2015 20:40 $RJ5EALZ.jpg
+  129004 -r--r--r--     0      0   3730181  3-Dec-2014 20:09 $RJ9SW7K.mp3
+  129004 -r--r--r--     0      0        26  3-Dec-2014 20:09 $RJ9SW7K.mp3:Zone.Identifier
+  183224 -r--r--r--     0      0     31160 28-Aug-2015 02:10 $RKP5U9D.jpg
+  181976 -r--r--r--     0      0       134 31-Aug-2015 22:05 $RLGKWUB.url
+  181919 -r--r--r--     0      0    109196 27-Feb-2015 15:35 $RM39UW0.jpg
+  165802 -r--r--r--     0      0 154926365 13-Oct-2014 18:10 $RM4K5PA.mp4
+  183643 -r--r--r--     0      0     65357  8-Sep-2015 00:17 $RMF5EHL.jpg
+  180697 -r--r--r--     0      0   5730254 29-Aug-2015 18:48 $RMLL8SL.mp3
+  180697 -r--r--r--     0      0        26 29-Aug-2015 18:48 $RMLL8SL.mp3:Zone.Identifier
+  181907 -r--r--r--     0      0    234805  7-Sep-2015 ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=43565 count=1 br=-1: Input/output error
+Corrupt attribute list entry in MFT record 103758
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=35735 count=1 br=-1: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+12:52 $RMNS28A.jpg
+  181904 -r--r--r--     0      0    232289  7-Sep-2015 12:51 $RMPQWEF.jpg
+  180237 -r--r--r--     0      0        81 31-Aug-2015 16:13 $RN4VHPZ.url
+  148345 -r--r--r--     0      0   3647007 12-Oct-2014 19:56 $RO7TLXF.mp3
+  148345 -r--r--r--     0      0        26 12-Oct-2014 19:56 $RO7TLXF.mp3:Zone.Identifier
+   93678 -r--r--r--     0      0  76133641 17-Dec-2014 02:52 $ROBKI79.mp4
+  155821 -r--r--r--     0      0  75948326 17-Dec-2014 02:54 $ROWTSP6.mp4
+  141490 -r--r--r--     0      0   3127902  2-Jan-2014 20:59 $RP9BMI2.mp3
+  141490 -r--r--r--     0      0        26  2-Jan-2014 20:59 $RP9BMI2.mp3:Zone.Identifier
+  133982 -r--r--r--     0      0  72252620 17-Dec-2014 02:52 $RQIJVVW.mp4
+  117271 -r--r--r--     0      0       477 22-Sep-2015 11:31 $RQQJTR4.url
+  179761 -r--r--r--     0      0    322560  1-Jul-2010 00:35 $RQRX91Q.exe
+   92855 -r--r--r--     0      0  14808576 24-Aug-2015 23:30 $RR3PVYG.msi
+   92855 -r--r--r--     0      0        26 24-Aug-2015 23:30 $RR3PVYG.msi:Zone.Identifier
+  145695 -r--r--r--     0      0    996037  7-Sep-2015 21:05 $RS2V7KX.jpg
+  103451 -r--r--r--     0      0  60336154 10-Dec-2014 05:11 $RS8JHYW.mp4
+  103451 -r--r--r--     0      0         0 10-Dec-2014 05:11 $RS8JHYW.mp4
+  103451 -r--r--r--     0      0         0 10-Dec-2014 05:11 $RS8JHYW.mp4
+  103451 -r--r--r--     0      0         0 10-Dec-2014 05:11 $RS8JHYW.mp4
+  103451 -r--r--r--     0      0         0 10-Dec-2014 05:11 $RS8JHYW.mp4
+  103451 -r--r--r--     0      0         0 10-Dec-2014 05:11 $RS8JHYW.mp4
+  103451 -r--r--r--     0      0        26 10-Dec-2014 05:11 $RS8JHYW.mp4:Zone.Identifier
+  107626 -r--r--r--     0      0    777313  7-Sep-2015 21:05 $RSPJXLJ.jpg
+  179612 -r--r--r--     0      0      6672 16-Sep-2015 17:56 $RT2824Y.wlmp
+  181920 -r--r--r--     0      0    109685 27-Feb-2015 15:36 $RTDXKGQ.jpg
+   65548 -r--r--r--     0      0 245178594 13-Oct-2014 19:42 $RTWL277.mp4
+  175031 -r--r--r--     0      0      9705 15-Sep-2015 17:51 $RUG7RPA.aup
+  152655 -r--r--r--     0      0   3369745 14-Jul-2014 13:26 $RV6UI4D.mp3
+  152655 -r--r--r--     0      0        26 14-Jul-2014 13:26 $RV6UI4D.mp3:Zone.Identifier
+   99095 -r--r--r--     0      0     99363 15-Sep-2015 23:15 $RV8O4HF.jpg
+  142434 -r--r--r--     0      0   1002763  7-Sep-2015 21:04 $RVC27AJ.jpg
+  165738 -r--r--r--     0      0     72912 23-Dec-2014 12:40 $RVOKGRH.jpg
+  165738 -r--r--r--     0      0        26 23-Dec-2014 12:40 $RVOKGRH.jpg:Zone.Identifier
+  181139 -r--r--r--     0      0   1145261  7-Sep-2015 21:20 $RW5UIHJ.jpg
+  183336 -r--r--r--     0      0    687348  7-Sep-2015 20:40 $RWRVNHN.jpg
+  103758 -r--r--r--     0      0  63655511 10-Dec-2014 05:08 $RX0D72M.mp4
+  103758 -r--r--r--     0      0         0 10-Dec-2014 05:08 $RX0D72M.mp4
+  103758 -r--r--r--     0      0         0 10-Dec-2014 05:08 $RX0D72M.mp4
+  103758 -r--r--r--     0      0         0 10-Dec-2014 05:08 $RX0D72M.mp4
+  155829 -r--r--r--     0      0  75795101 17-Dec-2014 02:46 $RXLOY67.mp4
+  114551 -r--r--r--     0      0     12935  8-Sep-2015 00:28 $RY1HKHN.jpg
+  181899 -r--r--r--     0      0    190838 28-Aug-2015 11:52 $RY64IGA.jpg
+  183271 -r--r--r--     0      0    642472  7-Sep-2015 20:48 $RYQ9KKT.jpg
+   66325 -r--r--r--     0      0  83369187 17-Dec-2014 02:54 $RYY97YS.mp4
+   61192 -r--r--r--     0      0   3191014 14-Jul-2014 13:23 $RZTH22X.mp3
+   61192 -r--r--r--     0      0        26 14-Jul-2014 13:23 $RZTH22X.mp3:Zone.Identifier
+  155822 -r--r--r--     0      0  71206715 17-Dec-2014 02:52 $RZZJLP9.mp4
+   15480 -r--r--r--     0      0       129  6-Apr-2013 20:12 desktop.ini
+file_pread(5,16,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,1,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,16,buffer,6569774(408/242/9)) read err: Input/output error
+file_pread(5,1,buffer,6569774(408/242/9)) read err: Input/output error
+ntfs_readdir failed for cluster 15478: Input/output error
+file_pread(5,16,buffer,449094496(27954/214/5)) read err: Partial read
+ERROR: Couldn't read filefile_pread(5,16,buffer,563389000(35069/87/35))ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=43565 count=1 br=-1: Input/output error
+Corrupt attribute list entry in MFT record 103758
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=43565 count=1 br=-1: Input/output error
+Corrupt attribute list entry in MFT record 103758
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=43565 count=1 br=-1: Input/output error
+Corrupt attribute list entry in MFT record 103758
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=43565 count=1 br=-1: Input/output error
+Corrupt attribute list entry in MFT record 103758
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=92703 count=1 br=-1: Input/output error
+Could not decode the type of inode 92703
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=92703 count=1 br=-1: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: No such file or directory
+Failed to read of MFT, mft=92703 count=1 br=-1: No such file or directory
+Could not decode the type of inode 92703
+ntfs_attr_pread_i: ntfs_pread failed: No such file or directory
+Failed to read of MFT, mft=92703 count=1 br=-1: No such file or directory
+ntfs_attr_pread_i: ntfs_pread failed: No such file or directory
+Failed to read of MFT, mft=92703 count=1 br=-1: No such file or directory
+Could not decode the type of inode 92703
+ntfs_attr_pread_i: ntfs_pread failed: No such file or directory
+Failed to read of MFT, mft=92703 count=1 br=-1: No such file or directory
+ read err: Input/output error
+file_pread(5,1,buffer,563389000(35069/87/35)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,550073712(34240/128/49)) read err: Input/output error
+file_pread(5,1,buffer,550073712(34240/128/49)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,549180792(34184/235/28)) read err: Input/output error
+file_pread(5,1,buffer,549180792(34184/235/28)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,1,buffer,6585434(409/235/45)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,1,buffer,6585434(409/235/45)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,1,buffer,6585434(409/235/45)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,6585434(409/235/45)) read err: Input/output error
+file_pread(5,1,buffer,6585434(409/235/45)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,549329024(34194/38/21)) read err: Input/output error
+file_pread(5,1,buffer,549329024(34194/38/21)) read err: Input/output error
+ERROR: Couldn't read filefile_pread(5,16,buffer,6683710(416/10/41)) read err: Input/output error
+file_pread(5,1,buffer,6683710(416/10/41)) read err: Input/output error
+file_pread(5,1,buffer,6683711(416/10/42)) read err: Input/output error
+ntfs_readdir failed for cluster 57: Input/output error
+Directory /$Recycle.Bin
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 .
+       5 dr-xr-xr-x     0      0         0 25-Sep-2015 12:25 ..
+   89426 dr-xr-xr-x     0      0         0 27-Jul-2015 23:22 S-1-5-18
+   15478 dr-xr-xr-x     0      0         0 27-Sep-2015 18:16 S-1-5-21-1982615213-2701732440-2548999596-1000
+   80677 dr-xr-xr-x     0      0         0 11-Sep-2013 19:04 S-1-5-21-1982615213-2701732440-2548999596-1001
+   85316 dr-xr-xr-x     0      0         0  5-Oct-2013 15:23 S-1-5-21-1982615213-2701732440-2548999596-1002
+   84589 dr-xr-xr-x     0      0         0 23-Aug-2014 11:31 S-1-5-21-1982615213-2701732440-2548999596-1003
+
+dir_partition inode=80677
+ 2 P HPFS - NTFS             12 223 20 60801  47 46  976564224
+     NTFS, blocksize=4096, 500 GB / 465 GiB
+Directory /$Recycle.Bin/S-1-5-21-1982615213-2701732440-2548999596-1001
+   80677 dr-xr-xr-x     0      0         0 11-Sep-2013 19:04 .
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 ..
+   80713 -r--r--r--     0      0       129 11-Sep-2013 19:04 desktop.ini
+ntfs_readdir failed for cluster 57: No such file or directory
+Directory /$Recycle.Bin
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 .
+       5 dr-xr-xr-x     0      0         0 25-Sep-2015 12:25 ..
+   89426 dr-xr-xr-x     0      0         0 27-Jul-2015 23:22 S-1-5-18
+   15478 dr-xr-xr-x     0      0         0 27-Sep-2015 18:16 S-1-5-21-1982615213-2701732440-2548999596-1000
+   80677 dr-xr-xr-x     0      0         0 11-Sep-2013 19:04 S-1-5-21-1982615213-2701732440-2548999596-1001
+   85316 dr-xr-xr-x     0      0         0  5-Oct-2013 15:23 S-1-5-21-1982615213-2701732440-2548999596-1002
+   84589 dr-xr-xr-x     0      0         0 23-Aug-2014 11:31 S-1-5-21-1982615213-2701732440-2548999596-1003
+
+dir_partition inode=85316
+ 2 P HPFS - NTFS             12 223 20 60801  47 46  976564224
+     NTFS, blocksize=4096, 500 GB / 465 GiB
+Directory /$Recycle.Bin/S-1-5-21-1982615213-2701732440-2548999596-1002
+   85316 dr-xr-xr-x     0      0         0  5-Oct-2013 15:23 .
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 ..
+   85317 -r--r--r--     0      0       129  5-Oct-2013 15:23 desktop.ini
+ntfs_readdir failed for cluster 57: No such file or directory
+Directory /$Recycle.Bin
+      57 dr-xr-xr-x     0      0         0  7-Jan-2024 14:39 .
+       5 dr-xr-xr-x     0      0         0 25-Sep-2015 12:25 ..
+   89426 dr-xr-xr-x     0      0         0 27-Jul-2015 23:22 S-1-5-18
+   15478 dr-xr-xr-x     ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=44118 count=1 br=-1: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=92703 count=1 br=-1: Input/output error
+Could not decode the type of inode 92703
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=92703 count=1 br=-1: Input/output error
+ntfs_attr_pread_i: ntfs_pread failed: Input/output error
+Failed to read of MFT, mft=32843 count=1 br=-1: Input/output error
