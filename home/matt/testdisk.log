@@ -1,0 +1,57 @@
+
+
+Tue Jan  9 21:09:10 2024
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.2.0-36-generic (#37~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct  9 15:34:04 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_AU.UTF-8'.
+
+
+Tue Jan  9 21:09:14 2024
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.2.0-36-generic (#37~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct  9 15:34:04 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+/dev/sda: LBA, LBA48 support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop18 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - CT1000BX500SSD1, S/N:2304E6A2DA78, FW:M6CR056
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - TOSHIBA External USB 3.0, FW:5438
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 10051 KB / 9816 KiB - 19632 sectors (RO), sector size=512
+Disk /dev/loop10 - 366 MB / 349 MiB - 716176 sectors (RO), sector size=512
+Disk /dev/loop11 - 509 MB / 485 MiB - 994336 sectors (RO), sector size=512
+Disk /dev/loop12 - 521 MB / 496 MiB - 1017816 sectors (RO), sector size=512
+Disk /dev/loop13 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop14 - 12 MB / 12 MiB - 25240 sectors (RO), sector size=512
+Disk /dev/loop15 - 42 MB / 40 MiB - 83672 sectors (RO), sector size=512
+Disk /dev/loop16 - 42 MB / 40 MiB - 82800 sectors (RO), sector size=512
+Disk /dev/loop17 - 462 KB / 452 KiB - 904 sectors (RO), sector size=512
+Disk /dev/loop2 - 10330 KB / 10088 KiB - 20176 sectors (RO), sector size=512
+Disk /dev/loop3 - 110 MB / 105 MiB - 216720 sectors (RO), sector size=512
+Disk /dev/loop4 - 66 MB / 63 MiB - 129976 sectors (RO), sector size=512
+Disk /dev/loop5 - 67 MB / 63 MiB - 130888 sectors (RO), sector size=512
+Disk /dev/loop6 - 77 MB / 74 MiB - 151784 sectors (RO), sector size=512
+Disk /dev/loop7 - 77 MB / 73 MiB - 151352 sectors (RO), sector size=512
+Disk /dev/loop8 - 248 MB / 237 MiB - 485800 sectors (RO), sector size=512
+Disk /dev/loop9 - 251 MB / 240 MiB - 492168 sectors (RO), sector size=512
+
+
+TestDisk exited normally.
