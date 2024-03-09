@@ -1,4 +1,4 @@
-Changes in version 1.27:
+Changes in version 1.27:  dodare
 
 A deadlock in command mode when stdout is fully buffered has been fixed by
 flushing stdout after executing each command. (Reported by Jeffrey Bosboom).
